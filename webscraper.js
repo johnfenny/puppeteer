@@ -7,7 +7,7 @@ async function scrapeData() {
     const browser = await puppeteer.launch();
 
     // show browser
-    const browser = await puppeteer.launch({ headless: false });
+    // const browser = await puppeteer.launch({ headless: false });
 
     const page = await browser.newPage();
 
